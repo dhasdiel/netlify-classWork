@@ -1,8 +1,5 @@
-const removeHide = (e) => {
-  e.classList.remove("hide");
-};
-const addHide = (e) => {
-  e.classList.add("hide");
+const removeOrAddHide = (e) => {
+  e.classList.toggle("hide");
 };
 
 const shuffle = (l, dict) => {
@@ -17,6 +14,7 @@ const shuffle = (l, dict) => {
     console.log(l[i]);
   }
 };
+
 let urls = {
   link1: "https://he-il.facebook.com/",
   link2: "https://www.google.com/",

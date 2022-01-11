@@ -156,7 +156,9 @@
   .pageHeaderMenuLink {
     color: rgba(94, 13, 13, 1);
   }
-  .pageHeaderMenu {
+  .pageHeaderMenu,
+  .pageBodyLeft,
+  .pageBodyRight {
     display: none;
   }
   .pageHeaderMenu480 {
@@ -183,8 +185,16 @@
     top: 33px;
     left: 10px;
   }
-
   .pageBody {
     z-index: 1;
+  }
+  .pageBodyCenterBodyCard {
+    padding-bottom: 20px;
+  }
+  .pageBodyCenterBodyCard {
+    flex: 40%;
+  }
+  .pageBodyCenterBodyCardHelper {
+    flex: 100%;
   }
 }
